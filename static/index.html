@@ -13,12 +13,13 @@
     <p>Your job title is:</p>
     <p id="result"></p>
 
-    <div class="buttons">
-        <button id="generate">Give me another</button>
-        <div>
-            <a class="twitter-share-button" data-size="large" id="twitter" data-url="https://mytechheadline.merencia.com">Tweet</a>
-        </div>  
-    </div>
+    <div>
+      <button id="generate">Give me another</button>
+    </div>  
+    <div class="inline-block">
+        <a class="twitter-share-button" data-size="large" id="twitter" data-url="https://mytechheadline.merencia.com">Tweet</a>
+    </div>  
+    <a class="inline-block github-button" href="https://github.com/merencia/tech-headline-generator/fork" data-icon="octicon-repo-forked" data-size="large" aria-label="Fork merencia/tech-headline-generator on GitHub">Fork</a>
     
     <script>
         init();
@@ -40,5 +41,8 @@
   
     return t;
   }(document, "script", "twitter-wjs"));</script>
+
+  <!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 </html>

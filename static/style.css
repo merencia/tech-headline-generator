@@ -35,8 +35,6 @@ p {
     margin-bottom: 15px;
 }
 
-#generate * {
-    display: inline;
+.inline-block {
+    display: inline-block;
 }
-
-.snsbutton{float:left; margin-left:3px}
