@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: #FEFEFE;
+}
+
+h1 {
+    font-weight: 100;
+    margin-top: 80px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+#result {
+    font-size: 15pt;
+}
+
+#generate {
+    height: 28px;
+    min-width: 150px;
+    background-color: #009e00;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 12pt;
+    line-height: 28px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+#generate * {
+    display: inline;
+}
+
+.snsbutton{float:left; margin-left:3px}
