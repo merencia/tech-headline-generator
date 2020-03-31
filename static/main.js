@@ -24,7 +24,9 @@ const keywords = {
         "Expert",
         "Leader",
         "Evangelist",
-        "Advocate"
+        "Advocate",
+        "Manager",
+        "Hacker"
     ]
 }
 
